@@ -4,8 +4,9 @@ number=random.randint(1, 100)
 
 attempt=0
 
-while True:
  print("wlecome to guessing game!")
+while True:
+
  guess=int(input("guess number from 1 to 100:"))
  attempt+=1
  
